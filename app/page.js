@@ -3,6 +3,9 @@ import Link from 'next/link';
 import classes from './page.module.css';
 import ImageSlideshow from '@/components/images/image-slideshow';
 
+import burger from '@/public/images/burger.jpg';
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <>

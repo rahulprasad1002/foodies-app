@@ -4,7 +4,6 @@ import classes from './page.module.css';
 import MealsGrid from '@/components/meals/meals-grid';
 import { getMeals } from '@/lib/meals';
 import { Suspense } from 'react';
-import MealsLoadingPage from './loading-out';
 
 async function Meal() {
   const meals = await getMeals(); // Util function for DB query
